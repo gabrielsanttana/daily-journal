@@ -1,0 +1,15 @@
+<%- include("partials/header") -%>
+
+    <div class="page-title">
+        <h2>Home</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum scelerisque convallis felis, vitae pellentesque leo egestas non. In suscipit semper lacus, et imperdiet ipsum dignissim ac. Fusce vel mollis ipsum. Nullam eu vehicula leo. Nulla mollis augue urna, eget sodales felis posuere vel. Vivamus id urna leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    </div>
+
+    <% posts.forEach((post) => { %>
+        <div class="post">
+            <h2><%= post.title %></h2>
+            <p><%= post.text.substring(0, 130) + " ... " %><a href="/posts/<%=post._id%>">Read more</a></p>
+        </div>
+    <%  }); %>
+    
+<%- include("partials/footer") -%>

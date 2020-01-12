@@ -1,0 +1,26 @@
+<%- include("partials/header") -%>
+
+        <div class="page-title">
+            <h2>Compose</h2>
+        </div>
+
+        <form method="POST" action="/compose" >
+            <div class="form-group">
+                <label for="title"><strong>Title</strong></label>
+                <input type="text" name="postTitle" class="form-control" id="title" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="text"><strong>Text</strong></label>
+                <textarea class="textBox form-control" name="postText" id="text" cols="40" rows="5" autocomplete="off"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Publish</button>
+        </form>
+    </div>
+
+    <footer>
+        &copy; Gabriel Santana
+    </footer>
+
+</body>
+
+</html>
