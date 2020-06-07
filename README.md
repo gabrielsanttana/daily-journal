@@ -1,4 +1,4 @@
-##<div align="center">Daily Journal 📔</div>
+## <div align="center">Daily Journal 📔</div>
 
 ###
 
