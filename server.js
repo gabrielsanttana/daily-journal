@@ -6,7 +6,10 @@ require("dotenv").config();
 
 const app = express();
 
-mongoose.connect(`mongodb+srv://admin-gabriel:${process.env.KEY}@cluster0-lfmbb.mongodb.net/daily-journal`, {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(`mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@${process.env.MONGODB_CLUSTER_URL}/daily-journal`, {
+  useNewUrlParser: true, 
+  useUnifiedTopology: true
+});
 
 const postSchema = new mongoose.Schema({
     title: String,
