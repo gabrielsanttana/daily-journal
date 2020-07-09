@@ -2,7 +2,7 @@
 
 #####
 
-<img src="./public/images/homepage.png" />
+<img src="./public/images/homepage_sample.png" />
 
 <p align="center">A plain daily journal blog 📔</p>
 
