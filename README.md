@@ -1,6 +1,10 @@
 # <div align="center">📔 Daily Journal</div>
 
-<p align="center">A plain daily journal blog</p>
+#####
+
+<img src="./public/images/homepage.png" />
+
+<p align="center">A plain daily journal blog 📔</p>
 
 ## 🛠️ Technologies
 
